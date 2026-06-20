@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4efe9 100%);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: white;
+    width: 100%;
+    max-width: 950px;
+    border: 1px solid #767676;
+    border-radius: 10px;
+    table-layout: fixed;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #767676;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+.main-title { background: #4CAF50; color: white; font-size: 20px; text-transform: uppercase; padding: 15px; }
+.sub-header { background: #f9f9f9; color: #2e7d32; font-weight: bold; }
+
+.fruit-img {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.clickable-row {
+    padding: 0 !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.resume-section-link {
+    text-decoration: none !important;
+    color: #2e7d32;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.clickable-row:hover {
+    background-color: #4CAF50;
+}
+.clickable-row:hover .resume-section-link {
+    color: white !important;
+}
+
+.resume-photo {
+    width: 150px;
+    height: auto;
+}
+
+.card-container { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+.hub-card {
+    background: white; width: 250px; padding: 30px; text-align: center;
+    text-decoration: none; border-radius: 15px; border: 2px solid #4CAF50; color: #333;
+}
+.hub-card:hover { background: #f1f8e9; }
+.card-icon { font-size: 40px; margin-bottom: 10px; }
+.card-btn { background: #4CAF50; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-top: 10px; font-weight: bold; }
+
+.back-btn { align-self: flex-start; margin-bottom: 15px; text-decoration: none; color: #4CAF50; font-weight: bold; border: 2px solid #4CAF50; padding: 6px 15px; border-radius: 20px; }
+.back-btn:hover { background: #4CAF50; color: white; }
+.standalone-container { background: white; padding: 40px; border-radius: 15px; border: 2px solid #4CAF50; text-align: center; margin-top: 50px; }
